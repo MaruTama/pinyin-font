@@ -165,6 +165,8 @@ Big5(大五碼)かCNS11643, 前者の方がメジャー
 
 ## その他
 - [グループ:全漢字](https://glyphwiki.org/wiki/Group:%E5%85%A8%E6%BC%A2%E5%AD%97)
+- [zi.tools 字統网](https://zi.tools/zi/%F0%AE%8E%B5)
+　　-> 関係図とかもあってすごい
 
 ## 異体字
 - [東京文化財研究所-異体字リスト](https://www.tobunken.go.jp/archives/%E7%95%B0%E4%BD%93%E5%AD%97%E3%83%AA%E3%82%B9%E3%83%88/)
