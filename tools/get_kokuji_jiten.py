@@ -42,8 +42,8 @@ def extract_related_characters(html_content):
 
 # [国字の字典](https://glyphwiki.org/wiki/Group:%E5%9B%BD%E5%AD%97%E3%81%AE%E5%AD%97%E5%85%B8)
 # 処理するページのリスト
-base_url = 'https://glyphwiki.org/wiki/kokuji-no-jiten-'
-page_numbers = range(1, 1557)  # 0001 to 1556
+base_url = 'https://glyphwiki.org/wiki/waseikanji-no-jiten-'
+page_numbers = range(1, 2670)  # 0001 to 1316
 # page_numbers = [1,17,19]
 
 # 各ページに対して処理

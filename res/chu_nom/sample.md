@@ -1,0 +1,1 @@
+[](https://kanji-database.sourceforge.net/misc/chunom.html)
