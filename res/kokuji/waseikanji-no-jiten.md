@@ -1,5 +1,5 @@
 [和製漢字の辞典](https://glyphwiki.org/wiki/Group:%e5%92%8c%e8%a3%bd%e6%bc%a2%e5%ad%97%e3%81%ae%e8%be%9e%e5%85%b8)
-|No|character|異体字|読み|構成|拼音|
+|No|character|異体字|構成|読み|拼音|
 |:---|:--|:--|:--|:--|:--|
 |   1|𬺰 U+2CEB0|𬂛 U+2C09B||||
 |   2|丒 U+4E12|丑 U+4E11|||chǒu|
