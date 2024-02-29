@@ -24,7 +24,7 @@ files = {
         'kokuji_list_of_jigen-net.md', 
         'kokuji-no-jiten.md',
         'nihonjin-no-tsukutta-kanji.md',
-        'waseikanji-no-jiten.md'
+        # 'waseikanji-no-jiten.md'
         }
 
 hanzi_dict = {}
@@ -48,8 +48,8 @@ for file in files:
 output_file_path = "marged-kokuji.md"
 idx = 1
 with open(output_file_path, 'w', encoding='utf-8') as output_file:
-    output_file.write( "|No|character|読み|拼音|\n" )
-    output_file.write( "|:---|:--|:--|:--|\n" )
+    output_file.write( "|No|character|読み|拼音|備考|\n" )
+    output_file.write( "|:---|:--|:--|:--|:--|\n" )
     for k, v in sorted(hanzi_dict.items()):
-        output_file.write( "|{:04}|{}|{}|{}|\n".format(idx, k, ",".join(v.getReading()), ",".join(set(v.getPinyin()))) )
+        output_file.write( "|{:04}|{}|{}|{}||\n".format(idx, k, ",".join(v.getReading()), ",".join(set(v.getPinyin()))) )
         idx += 1
