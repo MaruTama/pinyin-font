@@ -1,4 +1,5 @@
-from pypinyin import pinyin
+from pypinyin import pinyin as func_pinyin
+import getPinyin as gp
 
 class Info:
     def __init__(self, reading, pinyin):
@@ -48,8 +49,20 @@ for file in files:
 output_file_path = "marged-kokuji.md"
 idx = 1
 with open(output_file_path, 'w', encoding='utf-8') as output_file:
-    output_file.write( "|No|character|読み|拼音|備考|\n" )
-    output_file.write( "|:---|:--|:--|:--|:--|\n" )
+    output_file.write( "|No|character|読み|拼音|拼音(hancibao)|拼音(pypinyin)|備考|\n" )
+    output_file.write( "|:---|:--|:--|:--|:--|:--|\n" )
     for k, v in sorted(hanzi_dict.items()):
-        output_file.write( "|{:04}|{}|{}|{}||\n".format(idx, k, ",".join(v.getReading()), ",".join(set(v.getPinyin()))) )
+        hanzi = k.split(' ')[0]
+        unicode = k.split('+')[1].lower()
+        output_file.write( 
+            "|{:04}|{}|{}|{}|{}|{}||\n".format(
+                idx, 
+                k, 
+                ",".join(v.getReading()), 
+                ",".join(set(v.getPinyin())), 
+                gp.get_pinyin_from_hancibao(unicode),
+                ",".join(func_pinyin(hanzi, heteronym=True)[0])
+            )
+        )
         idx += 1
+        print(idx)
