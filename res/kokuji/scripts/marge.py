@@ -22,9 +22,9 @@ class Info:
 
 
 files = {
-        'kokuji_list_of_jigen-net.md', 
-        'kokuji-no-jiten.md',
-        'nihonjin-no-tsukutta-kanji.md',
+        '../kokuji_list_of_jigen-net.md', 
+        '../kokuji-no-jiten.md',
+        '../nihonjin-no-tsukutta-kanji.md',
         # 'waseikanji-no-jiten.md'
         }
 
@@ -46,7 +46,7 @@ for file in files:
             else:
                 hanzi_dict[zi_uni] = Info(reading.split(","), pinyin.split(","))
 
-output_file_path = "marged-kokuji.md"
+output_file_path = "../marged-kokuji.md"
 idx = 1
 with open(output_file_path, 'w', encoding='utf-8') as output_file:
     output_file.write( "|No|character|読み|拼音|拼音(hancibao)|拼音(pypinyin)|備考|\n" )
