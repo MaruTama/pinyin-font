@@ -175,5 +175,8 @@ Big5(大五碼)かCNS11643, 前者の方がメジャー
 ## 総合情報(異体字・unicode・読み)
 - [Unihan Database](https://www.unicode.org/charts/unihan.html)
 - [文字情報技術促進協議会-文字情報基盤検索システム](https://moji.or.jp/mojikibansearch/basic)
+- [zi.tools 字統网](https://zi.tools/)
+- [汉辞宝](https://www.hancibao.com/)
+- [Chinese Text Project](https://ctext.org/dictionary.pl?if=en)
 - [CHISE / 漢字構造情報データベース](https://www.chise.org/ids/)
 　　-> 高度な部首検索ができる
