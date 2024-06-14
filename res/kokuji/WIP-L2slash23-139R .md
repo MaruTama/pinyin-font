@@ -1,0 +1,1 @@
+[Proposal to add a new CJK Abbreviations block](https://www.unicode.org/L2/L2024/24125-cjk-abbrev-block.pdf)
