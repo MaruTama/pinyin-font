@@ -4,7 +4,7 @@
 - 簡体字と繁体字の漢字は拼音が付く
 - 簡体字の対象範囲は [通用规范汉字表](https://blogs.adobe.com/CCJKType/2014/03/china-8105.html) に準拠する
 - 繁体字の対象範囲は [Big5( 大五碼 )-2003](https://moztw.org/docs/big5/) に準拠する
-- 日本の漢字は[常用漢字表（平成22年内閣告示第2号）](https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kijun/naikaku/kanji/)に準拠する
+- 日本の漢字は[常用漢字表（平成22年内閣告示第2号）](https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kijun/naikaku/kanji/)と[国字](../res/kokuji/README.md)に準拠する
 - 「ひらがな」「カタカナ」を表示できる  
 
 
